@@ -80,7 +80,7 @@ export const ProfileShowcase: React.FC = () => {
             </span>
           </p>
           <p className="text-purple-200">
-            🍿 Baixe +2.000 vídeos virais de frutinhas no link abaixo!
+            🍿 Adquira +2.000 vídeos virais de frutinhas no link abaixo!
           </p>
           <a
             href={CHECKOUT_URL}
@@ -88,7 +88,7 @@ export const ProfileShowcase: React.FC = () => {
             rel="noopener noreferrer"
             className="text-cyan-400 font-extrabold hover:underline flex items-center gap-1 text-xs pt-0.5"
           >
-            <span>https://acesseseuproduto.shop</span>
+            <span>Checkout Oficial Hotmart (R$ 10,00)</span>
             <ExternalLink className="w-3 h-3" />
           </a>
         </div>

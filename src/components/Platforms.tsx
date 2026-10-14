@@ -159,7 +159,7 @@ export const Platforms: React.FC = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-extrabold text-yellow-300 hover:text-white underline underline-offset-4"
                 >
-                  <span>Baixar Acervo no Link Oficial</span>
+                  <span>Ir para o Checkout Oficial Hotmart</span>
                   <ArrowUpRight className="w-4 h-4" />
                 </a>
               </div>

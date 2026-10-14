@@ -34,7 +34,8 @@ export interface FAQItem {
   category: string;
 }
 
-export const CHECKOUT_URL = "https://acesseseuproduto.shop";
+// HOTMART OFFICIAL CHECKOUT LINK
+export const CHECKOUT_URL = "https://pay.hotmart.com/G108030565D?bid=1792016772254";
 
 export const CHARACTERS: Character[] = [
   {
@@ -156,7 +157,7 @@ export const FAQS: FAQItem[] = [
   {
     category: "Sobre os Vídeos",
     question: "Como vou receber os 2.000+ vídeos?",
-    answer: "Após a confirmação do pagamento, você recebe acesso imediato e vitalício à nossa área de membros e drive organizado por categorias e capítulos. Basta clicar no link, baixar e publicar.",
+    answer: "Após a confirmação do pagamento de R$ 10,00 no checkout seguro da Hotmart, você recebe acesso imediato e automático no seu e-mail para baixar e acessar a área de membros exclusiva.",
   },
   {
     category: "Monetização",
@@ -166,7 +167,7 @@ export const FAQS: FAQItem[] = [
   {
     category: "Direitos e Edição",
     question: "Preciso aparecer ou narrar com a minha voz?",
-    answer: "Não! Esse é o grande diferencial. Todos os vídeos já possuem dublagem profissional em português, legendas dinâmicas, efeitos sonoros e trilhas virais sincronizadas. É só copiar e postar.",
+    answer: "Não! Esse é o grande diferencial. Todos os vídeos já possuem dublagem profissional em português, legendas dinâmicas, efeitos sonoros e trilhas virais sincronizadas. É só postar.",
   },
   {
     category: "Formato e Suporte",
@@ -176,7 +177,7 @@ export const FAQS: FAQItem[] = [
   {
     category: "Garantia",
     question: "Tem garantia de reembolso?",
-    answer: "Sim! Você conta com 7 dias de garantia incondicional. Se por qualquer motivo não gostar do conteúdo, devolvemos 100% do seu dinheiro sem burocracia.",
+    answer: "Sim! Você conta com 7 dias de garantia incondicional pela Hotmart. Se por qualquer motivo não gostar do conteúdo, devolvemos 100% do seu dinheiro sem burocracia.",
   },
 ];
 
@@ -210,12 +211,12 @@ export const PLATFORMS = [
 export const STEPS = [
   {
     step: "01",
-    title: "BAIXE",
-    subtitle: "Acesse e Baixe Instantaneamente",
-    desc: "Baixe os vídeos do pack no link oficial e mantenha na sua galeria do celular.",
-    linkText: "Acessar Plataforma Oficial",
+    title: "GARANTA O ACESSO",
+    subtitle: "Checkout Seguro na Hotmart",
+    desc: "Realize o pagamento único de R$ 10,00 no ambiente 100% seguro da Hotmart e receba o acesso imediato no seu e-mail.",
+    linkText: "Ir para Checkout Hotmart",
     url: CHECKOUT_URL,
-    icon: "📥",
+    icon: "💳",
   },
   {
     step: "02",

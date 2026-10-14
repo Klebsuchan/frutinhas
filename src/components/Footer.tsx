@@ -48,7 +48,7 @@ export const Footer: React.FC = () => {
             Os resultados de monetização dependem de fatores individuais, tais como a frequência de postagens, regras das plataformas de redes sociais e engajamento do público.
           </p>
           <p className="text-purple-300 font-semibold">
-            Acesso oficial e seguro disponível exclusivamente em: <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer" className="text-yellow-400 underline">{CHECKOUT_URL}</a>
+            Pagamento único de R$ 10,00 e liberação imediata via Hotmart: <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer" className="text-yellow-400 underline">Checkout Oficial Hotmart</a>
           </p>
         </div>
 

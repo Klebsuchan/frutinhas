@@ -1,6 +1,6 @@
 import React from "react";
-import { Download, Share2, DollarSign, ExternalLink, ArrowRight, ShieldCheck } from "lucide-react";
-import { STEPS, CHECKOUT_URL } from "../data/packData";
+import { CreditCard, Share2, DollarSign, ExternalLink, ArrowRight, ShieldCheck } from "lucide-react";
+import { CHECKOUT_URL } from "../data/packData";
 
 export const Steps: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ export const Steps: React.FC = () => {
             É SÓ 3 PASSOS
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-tight">
-            Baixe, poste, monetize: <span className="text-yellow-400">é só 3 passos</span>
+            Compre, poste, monetize: <span className="text-yellow-400">é só 3 passos</span>
           </h2>
           <p className="text-purple-200 text-sm sm:text-base max-w-xl mx-auto">
             O fluxo mais simples do mercado para quem quer criar um canal Dark lucrativo.
@@ -29,20 +29,20 @@ export const Steps: React.FC = () => {
               <span className="w-12 h-12 rounded-2xl bg-yellow-400 text-black font-black text-xl flex items-center justify-center shadow-lg shadow-yellow-500/30">
                 1
               </span>
-              <span className="text-3xl">📥</span>
+              <span className="text-3xl">💳</span>
             </div>
 
             <div>
               <h3 className="text-2xl font-black text-yellow-400 uppercase">
-                BAIXE
+                GARANTA O ACESSO
               </h3>
               <p className="text-xs text-purple-300 font-semibold mt-0.5">
-                Acesse o drive oficial do produto
+                Checkout 100% Seguro na Hotmart
               </p>
             </div>
 
             <p className="text-purple-200 text-sm leading-relaxed">
-              Baixe os vídeos do pack no link oficial e guarde direto no seu celular ou computador em alta qualidade.
+              Realize o pagamento único de R$ 10,00 no ambiente seguro da Hotmart e receba os dados de acesso imediatamente no seu e-mail.
             </p>
 
             <div className="pt-2">
@@ -50,9 +50,9 @@ export const Steps: React.FC = () => {
                 href={CHECKOUT_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-xs font-black text-yellow-300 hover:text-white bg-yellow-500/10 hover:bg-yellow-500/20 px-3.5 py-2 rounded-xl border border-yellow-500/30 transition-colors w-full justify-center"
+                className="inline-flex items-center gap-2 text-xs font-black text-yellow-300 hover:text-white bg-yellow-500/10 hover:bg-yellow-500/20 px-3.5 py-2.5 rounded-xl border border-yellow-500/30 transition-colors w-full justify-center"
               >
-                <span>https://acesseseuproduto.shop</span>
+                <span>Checkout Oficial Hotmart</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
@@ -77,7 +77,7 @@ export const Steps: React.FC = () => {
             </div>
 
             <p className="text-purple-200 text-sm leading-relaxed">
-              Poste os episódios no TikTok, Shorts e Reels usando os ganchos e hashtags sugeridas dentro do pack.
+              Poste os episódios no TikTok, Shorts e Reels seguindo nossa ordem de episódios para criar retenção extrema.
             </p>
 
             <div className="pt-2 flex items-center gap-1.5 text-xs text-purple-300 font-medium bg-purple-900/30 p-2.5 rounded-xl border border-purple-500/20">
