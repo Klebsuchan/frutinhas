@@ -1,0 +1,6 @@
+{
+  "name": "Pack Viral - Novelinhas de Frutinhas",
+  "description": "Monetize seu TikTok, YouTube Shorts e Instagram Reels com mais de 2.000 vídeos virais de novelinhas de frutinhas sem precisar aparecer ou editar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
